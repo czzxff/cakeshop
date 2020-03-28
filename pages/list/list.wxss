@@ -1,0 +1,19 @@
+/* pages/list/list.wxss */
+.item{
+  height: 200rpx;
+  border-bottom: 2rpx solid lightgray;
+  margin-top: 10rpx;
+}
+image{width: 200rpx;height: 200rpx;float: left;margin-right: 20rpx;}
+.info{
+  height: 200rpx;float: left;width: 60%;
+}
+.good-name{
+   font-size: 40rpx;
+}
+.info-col{
+  margin-top: 70rpx;
+  height: 50rpx;
+}
+.good-num{float: left;font-size: 30rpx;}
+.good-price{color: red;float: right;font-size: 40rpx;}

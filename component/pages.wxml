@@ -1,0 +1,23 @@
+<!--component/pages.wxml-->
+<view hidden='{{!isShow}}'>
+  <view class="modal">
+    <view class='modal-content'>
+      <view class='modal-top'>
+        <view class='header'>{{modalTitle}}</view>
+      </view>
+      <view class='modal-body'>
+        <text> {{modalMsg}}</text>
+      </view>
+      <view class='modal-footer'>
+        <text class='cancle' catchtap='_cancelEvent'>取消</text>
+        <text class='sure' catchtap='_confirmEvent'>确定</text>
+      </view>
+    </view>
+  </view>
+</view>
+<!-- 要点：
+组件内的class样式，只对组件内的wxml节点生效，对于引用组件的page页面无效
+组件内不能使用id选择器、属性选择器、标签选择器
+外部使用的class样式，只对外部wxml的class生效，对组件内不不生效
+外部使用id选择器，属性选择器，不会对组件内产生影响
+外部使用标签选择器，会对组件内产生影响 -->

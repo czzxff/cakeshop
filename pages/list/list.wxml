@@ -1,0 +1,12 @@
+<block wx:for="{{list}}" wx:key="{{index}}">
+<view  data-index='{{index}}'  class="item" bindtap="toDetail">
+  <image src="{{item.img}}"></image>
+  <view class="info">
+    <text class="good-name">{{item.name}}</text>
+    <view class="info-col">
+      <text class="good-num">月售出{{item.num}}</text>
+      <text class="good-price">￥{{item.price}}</text>
+    </view>
+  </view>
+</view>
+</block>

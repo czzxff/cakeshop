@@ -1,0 +1,38 @@
+
+<image src='{{img}}' class='slide-img'></image>
+<view class='info'>
+  <text class='name'>{{name}}</text>
+  <view class='goodnum'>
+     <text class='price'>￥{{price}}</text>
+     <text class='stock'>库存</text>
+     <text class='stock'>销量：{{num}}</text >
+  </view>
+</view>
+
+<view class='num'>
+   <text class='choosenum'>已选择件</text>
+   <view class="stepper">  
+    <!-- 减号 -->  
+    <text  bindtap="bindMinus">-</text>  
+    <!-- 数值 -->  
+    <input type="number" bindchange="bindManual" value="{{count}}" />  
+    <!-- 加号 -->  
+    <text  bindtap="bindPlus">+</text>  
+   </view>  
+</view>
+
+<view class='detail'>
+  <view class='nav'>
+    <text class='evaluate'>用户评价</text>
+    <text class='pics'>图文详情</text>
+  </view>
+  <block wx:for="{{imglist}}">
+    <image src="{{item}}" class="imglist"></image>
+  </block>
+</view>
+<button bindtap="handlePushIndex">返回</button>
+<view class="tab">
+  <view class="tab-btn">加入购物车</view>
+  <view class="tab-btn bgr">立即购买</view>
+</view>
+ 

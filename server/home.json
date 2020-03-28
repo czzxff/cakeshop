@@ -1,0 +1,27 @@
+{
+ "postList":[
+    {
+      "img": "/assets/images/index/4.jpg",
+      "name": "定制小烘焙生日蛋糕",
+      "price": "200",
+      "num": "22"
+    },
+    {
+      "img": "/assets/images/index/1.jpg",
+      "name": "盒子蛋糕",
+      "price": "20",
+      "num": "222"
+    },
+    {
+      "img": "/assets/images/index/2.jpg",
+      "name": "进口黄油咸曲奇",
+      "price": "50",
+      "num": "166"
+    },
+  ],
+  "movies":[
+    {"url":"/assets/images/index/4.jpg"},
+    {"url":"/assets/images/index/1.jpg"},
+    {"url":"/assets/images/index/2.jpg"},
+  ],
+}

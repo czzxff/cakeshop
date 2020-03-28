@@ -1,0 +1,134 @@
+page{
+  background-color: #e6e6e6;
+}
+.slide-img{
+  width: 750rpx;
+  height: 500rpx;
+}
+.info{
+ padding: 0 35rpx;
+  width: 680rpx;
+  height: 140rpx;
+  background-color: #fff;
+}
+.name{
+  font-size: 36rpx;
+  text-align: center;
+  margin-top: 18rpx;
+}
+.goodnum{
+  height: 90rpx;
+  line-height: 90rpx;
+}
+.price{
+  float: left;
+  font-size: 36rpx;
+  color: red;
+  margin-right: 20rpx;
+}
+.stock{
+  float: left;
+  font-size: 30rpx;
+  color: gray;
+  margin-right: 20rpx;
+}
+
+.num{
+  width: 750rpx;
+  margin: 20rpx 0;
+  height: 100rpx;
+  background-color: #fff;
+  line-height: 100rpx;
+}
+.choosenum{
+  float: left;
+  margin: 0 30rpx;
+}
+.stepper { 
+   float: left; 
+    width: 160rpx;  
+    height: 52rpx;  
+    /*给主容器设一个边框*/  
+    border: 1px solid #ccc;  
+    border-radius: 6rpx;  
+    margin:24rpx auto;  
+}  
+
+/*加号和减号*/  
+.stepper text {  
+    width: 38rpx;  
+    line-height: 52rpx;  
+    text-align: center;  
+    float: left;  
+}  
+  
+/*数值*/  
+.stepper input {  
+    width: 80rpx;  
+    height: 52rpx;  
+    float: left;  
+    margin: 0 auto;  
+    text-align: center;  
+    font-size: 24rpx;  
+    /*给中间的input设置左右边框即可*/  
+    border-left: 1px solid #ccc;  
+    border-right: 1px solid #ccc;  
+}  
+.detail{
+ width: 750rpx;
+  display: table;
+  content: '';
+  clear: both;
+  background-color: white;
+}
+.nav{
+  width: 100%;
+  height: 80rpx;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.evaluate{
+  width: 48%;
+  float: left;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+}
+.pics{
+  width: 48%;
+  float: left;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+}
+.evaluate:hover{
+  color: #ff5777;
+  border-bottom: 4rpx solid #ff5777;
+}
+.pics:hover{
+  color: #ff5777;
+  border-bottom: 4rpx solid #ff5777;
+}
+.imglist{
+  width: 750rpx;
+}
+.tab{
+  width: 750rpx;
+  height: 90rpx;
+  position: fixed;
+  bottom: 0;
+}
+.tab-btn{
+  float: left;
+  width: 375rpx;
+  height: 90rpx;
+  color: white;
+  line-height: 90rpx;
+  text-align: center;
+  background-color: #ff5777;
+}
+.bgr{
+  background-color: red;
+}

@@ -1,0 +1,5 @@
+<!--弹窗例子-->
+<button bindtap="handleShowToast">弹窗测试</button>
+<button bindtap="handleShowModal">弹窗测试</button>
+<button bindtap="handleShowLoading">弹窗测试</button>
+<button bindtap="handleShowAction">弹窗测试</button>

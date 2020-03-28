@@ -1,0 +1,29 @@
+<view class = 'item' wx:for="{{goodList}}" wx:for-item="good">
+   <icon wx:if="{{good.selected}}" type="success_circle" bindtap="bindCheckbox" data-index="{{index}}" class="my-check"/>
+   <icon wx:else type="circle" bindtap="bindCheckbox" data-index="{{index}}" class="my-check"/>
+   <image src='{{good.img}}' class='goodimg'></image>
+   <view class='left'>
+    <view class='goodname'>{{good.name}}</view>
+    <view class="stepper">  
+      <!-- 减号 -->  
+      <text  bindtap="bindMinus" data-index="{{index}}">-</text>  
+      <!-- 数值 -->  
+      <input type="number" value="{{good.count}}" />  
+      <!-- 加号 -->  
+      <text  bindtap="bindPlus" data-index="{{index}}">+</text>  
+    </view>  
+  </view>
+  <view class='right'>
+      <icon type='cancel' size = "20"></icon>
+      <view class='price'>￥{{good.price}}</view>
+  </view>
+</view>
+
+<view class='footer'>
+  <icon wx:if="{{selectAllStatus}}" type="success_circle" bindtap="selectAll" size="30"/>
+  <icon wx:else type="circle"  bindtap="selectAll" size="30"/>
+  <text style="float:left">全选</text>
+  <text class='totalprice'>总计:￥{{totalPrice}}</text>
+  <view class='pay'>去结算</view>
+</view>
+

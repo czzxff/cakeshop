@@ -1,0 +1,19 @@
+{
+  "cakeList": [
+    {
+      "img": "../images/index/4.jpg",
+      "name": "定制小烘焙生日蛋糕",
+      "price": 200
+    },
+    {
+      "img": "../images/index/1.jpg",
+      "name": "黑森林蛋糕",
+      "price": 333
+    },
+    {
+      "img": "../images/index/2.jpg",
+      "name": "千层蛋糕",
+      "price": 99
+    },
+  ]
+}
